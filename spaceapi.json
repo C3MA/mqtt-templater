@@ -1,0 +1,42 @@
+{
+	"api": "0.13",
+	"space": "CCC Mannheim",
+	"logo": "https://www.ccc-mannheim.de/spaceapi/logo.png",
+	"url": "https://www.ccc-mannheim.de/",
+	"location": {
+		"address": "CCC Mannheim e.V, Neckarauer Straße 106-116, 68163 Mannheim",
+		"lat": 49.46369,
+		"lon": 8.48862
+	},
+	"state": {
+		"open": true,
+		"lastchange": 1510515003
+	},
+	"contact": {
+		"phone": "+49 621 12285323",
+		"twitter": "@c3ma",
+		"email": "info@ccc-mannheim.de",
+		"ml": "default@lists.ccc-mannheim.de",
+		"jabber": "talk@conference.jabber.ccc-mannheim.de"
+	},
+	"issue_report_channels": [ "email", "twitter" ],
+	"sensors": {
+		"temperature": [
+			{
+				"value": 20.8,
+				"unit": "\u00b0C",
+				"location": "Inside"
+			},
+			{
+				"value": 3.8,
+				"unit": "\u00b0C",
+				"location": "Outside"
+			},
+			{
+				"value": 23.0,
+				"unit": "\u00b0C",
+				"location": "Cabinet"
+			}
+		]
+	}
+}
